@@ -12,10 +12,13 @@ namespace modul5_1302210004
         {
             dynamic penjumlahan = 0.0;
             penjumlahan = penjumlahan + angka;
-            penjumlahan+= num;
-            penjumlahan+= number;
+
+            penjumlahan += num;
+            penjumlahan += number;
+
             Console.WriteLine("Total jumlah tiga angka: " + penjumlahan);
 
         }
     }
+
 }
